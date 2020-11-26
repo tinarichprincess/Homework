@@ -76,5 +76,10 @@ namespace Homework
         {
             labAns.Text = (double.Parse(txtnum1.Text) / double.Parse(txtnum2.Text)).ToString();
         }
+
+        private void labAns_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,7 +32,7 @@ namespace Homework
 
         private void button4_Click(object sender, EventArgs e)
         {
-            StudentGrade newform = new StudentGrade();
+            StudentStruct newform = new StudentStruct();
             newform.Show();
         }
 
@@ -40,6 +40,23 @@ namespace Homework
         {
             Mycla newform = new Mycla();
             newform.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Loan newform = new Loan();
+            newform.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Guess_Number newform = new Guess_Number();
+            newform.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

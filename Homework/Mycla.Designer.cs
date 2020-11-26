@@ -45,7 +45,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(43, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 26);
@@ -56,6 +58,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(43, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 26);
@@ -66,6 +69,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(145, 241);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 35);
@@ -92,6 +96,7 @@
             // 
             // butAdd
             // 
+            this.butAdd.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.butAdd.Location = new System.Drawing.Point(338, 62);
             this.butAdd.Name = "butAdd";
             this.butAdd.Size = new System.Drawing.Size(50, 42);
@@ -102,6 +107,7 @@
             // 
             // butSub
             // 
+            this.butSub.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.butSub.Location = new System.Drawing.Point(338, 130);
             this.butSub.Name = "butSub";
             this.butSub.Size = new System.Drawing.Size(50, 42);
@@ -112,6 +118,7 @@
             // 
             // butmul
             // 
+            this.butmul.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.butmul.Location = new System.Drawing.Point(416, 62);
             this.butmul.Name = "butmul";
             this.butmul.Size = new System.Drawing.Size(50, 42);
@@ -122,6 +129,7 @@
             // 
             // butDiv
             // 
+            this.butDiv.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.butDiv.Location = new System.Drawing.Point(416, 130);
             this.butDiv.Name = "butDiv";
             this.butDiv.Size = new System.Drawing.Size(50, 42);
@@ -158,12 +166,15 @@
             this.labAns.Name = "labAns";
             this.labAns.Size = new System.Drawing.Size(137, 42);
             this.labAns.TabIndex = 12;
+            this.labAns.Click += new System.EventHandler(this.labAns_Click);
             // 
             // Mycla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Homework.Properties.Resources.l_blog_common_volleyball_injuries_8_17_optimized;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(519, 357);
             this.Controls.Add(this.labAns);
             this.Controls.Add(this.label6);

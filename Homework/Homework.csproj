@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E7A67EEA-0EE8-4978-89F0-79B597F461AC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>Homework</RootNamespace>
     <AssemblyName>Homework</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,11 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarm.Designer.cs">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guess Number.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess Number.Designer.cs">
+      <DependentUpon>Guess Number.cs</DependentUpon>
     </Compile>
     <Compile Include="Loan.cs">
       <SubType>Form</SubType>
@@ -76,12 +91,25 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Student Grade LIst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Grade LIst.Designer.cs">
+      <DependentUpon>Student Grade LIst.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentGrade.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StudentGrade.Designer.cs">
       <DependentUpon>StudentGrade.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentStruct.Designer.cs">
+      <DependentUpon>StudentStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Untility.cs" />
     <Compile Include="主控圖.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,8 +121,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Alarm.resx">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess Number.resx">
+      <DependentUpon>Guess Number.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan.resx">
       <DependentUpon>Loan.cs</DependentUpon>
@@ -109,8 +143,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Student Grade LIst.resx">
+      <DependentUpon>Student Grade LIst.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentGrade.resx">
       <DependentUpon>StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentStruct.resx">
+      <DependentUpon>StudentStruct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="主控圖.resx">
       <DependentUpon>主控圖.cs</DependentUpon>

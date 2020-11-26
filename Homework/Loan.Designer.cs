@@ -74,6 +74,7 @@
             // 
             // txttol
             // 
+            this.txttol.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txttol.Location = new System.Drawing.Point(133, 243);
             this.txttol.Multiline = true;
             this.txttol.Name = "txttol";
@@ -100,6 +101,7 @@
             // 
             // txtMonth
             // 
+            this.txtMonth.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtMonth.Location = new System.Drawing.Point(133, 138);
             this.txtMonth.Multiline = true;
             this.txtMonth.Name = "txtMonth";
@@ -117,6 +119,7 @@
             // 
             // txtPercent
             // 
+            this.txtPercent.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtPercent.Location = new System.Drawing.Point(133, 83);
             this.txtPercent.Multiline = true;
             this.txtPercent.Name = "txtPercent";
@@ -134,6 +137,7 @@
             // 
             // txtMoney
             // 
+            this.txtMoney.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtMoney.Location = new System.Drawing.Point(133, 31);
             this.txtMoney.Multiline = true;
             this.txtMoney.Name = "txtMoney";
@@ -168,10 +172,12 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "清除";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label7.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label7.Location = new System.Drawing.Point(425, 71);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(335, 298);

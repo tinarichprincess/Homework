@@ -34,162 +34,168 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtEng = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtMat = new System.Windows.Forms.TextBox();
+            this.txtMath = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.butSave = new System.Windows.Forms.Button();
-            this.butShow = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtCompare = new System.Windows.Forms.TextBox();
-            this.txtgrade = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(67, 73);
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(31, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 38);
+            this.label1.Size = new System.Drawing.Size(84, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "姓名:";
             // 
             // txtName
             // 
-            this.txtName.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtName.Location = new System.Drawing.Point(138, 69);
+            this.txtName.Location = new System.Drawing.Point(98, 34);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(123, 35);
+            this.txtName.Size = new System.Drawing.Size(110, 28);
             this.txtName.TabIndex = 1;
             // 
             // txtChi
             // 
-            this.txtChi.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtChi.Location = new System.Drawing.Point(138, 128);
+            this.txtChi.Location = new System.Drawing.Point(98, 78);
             this.txtChi.Multiline = true;
             this.txtChi.Name = "txtChi";
-            this.txtChi.Size = new System.Drawing.Size(123, 35);
+            this.txtChi.Size = new System.Drawing.Size(110, 28);
             this.txtChi.TabIndex = 3;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(67, 132);
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(31, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 38);
+            this.label2.Size = new System.Drawing.Size(70, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "國文:";
             // 
             // txtEng
             // 
-            this.txtEng.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtEng.Location = new System.Drawing.Point(138, 189);
+            this.txtEng.Location = new System.Drawing.Point(98, 123);
             this.txtEng.Multiline = true;
             this.txtEng.Name = "txtEng";
-            this.txtEng.Size = new System.Drawing.Size(123, 35);
+            this.txtEng.Size = new System.Drawing.Size(110, 28);
             this.txtEng.TabIndex = 5;
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(67, 193);
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(31, 123);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 38);
+            this.label3.Size = new System.Drawing.Size(70, 28);
             this.label3.TabIndex = 4;
             this.label3.Text = "英文:";
             // 
-            // txtMat
+            // txtMath
             // 
-            this.txtMat.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtMat.Location = new System.Drawing.Point(138, 261);
-            this.txtMat.Multiline = true;
-            this.txtMat.Name = "txtMat";
-            this.txtMat.Size = new System.Drawing.Size(123, 35);
-            this.txtMat.TabIndex = 7;
+            this.txtMath.Location = new System.Drawing.Point(98, 169);
+            this.txtMath.Multiline = true;
+            this.txtMath.Name = "txtMath";
+            this.txtMath.Size = new System.Drawing.Size(110, 28);
+            this.txtMath.TabIndex = 7;
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(67, 265);
+            this.label4.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label4.Location = new System.Drawing.Point(31, 169);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 38);
+            this.label4.Size = new System.Drawing.Size(70, 28);
             this.label4.TabIndex = 6;
             this.label4.Text = "數學:";
             // 
-            // butSave
+            // button1
             // 
-            this.butSave.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.butSave.Location = new System.Drawing.Point(71, 338);
-            this.butSave.Name = "butSave";
-            this.butSave.Size = new System.Drawing.Size(117, 47);
-            this.butSave.TabIndex = 8;
-            this.butSave.Text = "儲存";
-            this.butSave.UseVisualStyleBackColor = true;
-            this.butSave.Click += new System.EventHandler(this.butSave_Click);
+            this.button1.Location = new System.Drawing.Point(31, 208);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 43);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "加入學生資料";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // butShow
+            // button2
             // 
-            this.butShow.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.butShow.Location = new System.Drawing.Point(214, 338);
-            this.butShow.Name = "butShow";
-            this.butShow.Size = new System.Drawing.Size(150, 47);
-            this.butShow.TabIndex = 9;
-            this.butShow.Text = "顯示儲存資料";
-            this.butShow.UseVisualStyleBackColor = true;
-            this.butShow.Click += new System.EventHandler(this.butShow_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.txtCompare);
-            this.groupBox1.Controls.Add(this.txtgrade);
-            this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox1.Location = new System.Drawing.Point(385, 60);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(347, 260);
-            this.groupBox1.TabIndex = 10;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "成績";
-            // 
-            // txtCompare
-            // 
-            this.txtCompare.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtCompare.Location = new System.Drawing.Point(19, 142);
-            this.txtCompare.Multiline = true;
-            this.txtCompare.Name = "txtCompare";
-            this.txtCompare.Size = new System.Drawing.Size(305, 101);
-            this.txtCompare.TabIndex = 1;
-            // 
-            // txtgrade
-            // 
-            this.txtgrade.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtgrade.Location = new System.Drawing.Point(19, 32);
-            this.txtgrade.Multiline = true;
-            this.txtgrade.Name = "txtgrade";
-            this.txtgrade.Size = new System.Drawing.Size(305, 101);
-            this.txtgrade.TabIndex = 0;
+            this.button2.Location = new System.Drawing.Point(31, 257);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(177, 43);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "隨機儲存資料";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button3.Location = new System.Drawing.Point(527, 338);
+            this.button3.Location = new System.Drawing.Point(31, 306);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(205, 49);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "最高分/最低分";
+            this.button3.Size = new System.Drawing.Size(177, 43);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "各科統計";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(33, 360);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(82, 65);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "重設資料";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(126, 360);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(82, 65);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "隨機加入\r\n20筆資料";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label5
+            // 
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label5.Font = new System.Drawing.Font("標楷體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label5.Location = new System.Drawing.Point(253, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(525, 267);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "姓名     國文     英文     數學     總分     平均     最低     最高 ";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label6
+            // 
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label6.Location = new System.Drawing.Point(253, 306);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(525, 119);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "label6";
             // 
             // StudentGrade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.butShow);
-            this.Controls.Add(this.butSave);
-            this.Controls.Add(this.txtMat);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtMath);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtEng);
             this.Controls.Add(this.label3);
@@ -199,8 +205,6 @@
             this.Controls.Add(this.label1);
             this.Name = "StudentGrade";
             this.Text = "StudentGrade";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,13 +218,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEng;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtMat;
+        private System.Windows.Forms.TextBox txtMath;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button butSave;
-        private System.Windows.Forms.Button butShow;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtCompare;
-        private System.Windows.Forms.TextBox txtgrade;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

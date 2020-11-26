@@ -17,107 +17,204 @@ namespace Homework
             InitializeComponent();
         }
 
-        string result;
+        public int SumChi, SumEng, SumMath;
 
-        int a, b, c;
-        int aa, bb, cc;
-        int max,min = 0;
 
-      
 
-        struct Grade
+        private void button1_Click(object sender, EventArgs e)
         {
-            public string Name;
-            public int GradeChinese;
-            public int GradeEng;
-            public int GradeMath;
-            
-            
-        }
+            //bool a = false;
+            //if(!a == true)
+         
 
-        private void butSave_Click(object sender, EventArgs e)
-        {
-            //butSave.Click += ButSave_Click_Method;
-            //butShow.Click += ButShow_Click_method;
+            int Tol, Aver, Max, Min;
+            Student Stu = new Student();
+            Stu.Name = txtName.Text;
+            Stu.ChineseGrade = int.Parse(txtChi.Text);
+            Stu.EngGrade =int.Parse( txtEng.Text);
+            Stu.MathGrade = int.Parse(txtMath.Text);
 
-            Grade grade;
-
-            grade.Name = txtName.Text;
-            grade.GradeChinese = int.Parse(txtChi.Text);
-            grade.GradeEng = int.Parse(txtEng.Text);
-            grade.GradeMath = int.Parse(txtMat.Text);
-
-           result = "姓名是：" + grade.Name + Environment.NewLine + "國文成績是：" + grade.GradeChinese + Environment.NewLine + "英文成績是：" + grade.GradeEng + Environment.NewLine + "數學成績是：" + grade.GradeMath;
-
-        }
-
-        private void ButShow_Click_method(object sender, EventArgs e)
-        {
-            //txtgrade.Text = "姓名是：" + txtName.Text + Environment.NewLine + "國文成績是：" + txtChi.Text + Environment.NewLine + "英文成績是：" + txtEng.Text + Environment.NewLine + "數學成績是：" + txtMat.Text;
-
+            Tol = (Stu.MathGrade + Stu.ChineseGrade + Stu.EngGrade);
+            Aver = Tol / 3;
            
+            if(Stu.ChineseGrade > Stu.EngGrade)
+            {
+                Max = Stu.ChineseGrade;
+            }
+            else
+            {
+                Max = Stu.EngGrade;
+            }
+            if (Max < Stu.MathGrade)
+            {
+                Max = Stu.MathGrade;
+            }
+            //////////////////////////////////////////////////////////////////////////
+            if (Stu.ChineseGrade < Stu.EngGrade)
+            {
+                Min = Stu.ChineseGrade;
+            }
+            else
+            {
+                Min = Stu.EngGrade;
+            }
+            if (Min > Stu.MathGrade)
+            {
+                Min = Stu.MathGrade;
+            }
+
+
+            label5.Text +=Environment.NewLine+$" {Stu.Name}       {Stu.ChineseGrade}      {Stu.EngGrade}       {Stu.MathGrade}      {Tol}      {Aver}       {Min}       {Max}";
+
+
+
+            SumChi += Stu.ChineseGrade;
+            SumEng += Stu.EngGrade;
+            SumMath += Stu.MathGrade;
+
+
+
+     //List<Student> listu = new List<Student>();
+
+            //       listu.Add(Stu);
+
+
 
 
         }
 
-        private void ButSave_Click_Method(object sender, EventArgs e)
+        void ShowStudent()
         {
-            
+            //label1.Text =Student
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int Tol, Aver, Max, Min;
+
+            Random Rn = new Random();
+            Student Stu = new Student();
+            Stu.Name = " Tina";
+            Stu.ChineseGrade = Rn.Next(0, 100);
+            Stu.EngGrade = Rn.Next(0, 100);
+            Stu.MathGrade = Rn.Next(0, 100);
+
+            Tol = (Stu.MathGrade + Stu.ChineseGrade + Stu.EngGrade);
+            Aver = Tol / 3;
+
+            if (Stu.ChineseGrade > Stu.EngGrade)
+            {
+                Max = Stu.ChineseGrade;
+            }
+            else
+            {
+                Max = Stu.EngGrade;
+            }
+            if (Max < Stu.MathGrade)
+            {
+                Max = Stu.MathGrade;
+            }
+            //////////////////////////////////////////////////////////////////////////
+            if (Stu.ChineseGrade < Stu.EngGrade)
+            {
+                Min = Stu.ChineseGrade;
+            }
+            else
+            {
+                Min = Stu.EngGrade;
+            }
+            if (Min > Stu.MathGrade)
+            {
+                Min = Stu.MathGrade;
+            }
+
+            SumChi += Stu.ChineseGrade;
+            SumEng += Stu.EngGrade;
+            SumMath += Stu.MathGrade;
+
+
+
+
+            label5.Text += Environment.NewLine + $" {Stu.Name}       {Stu.ChineseGrade}      {Stu.EngGrade}       {Stu.MathGrade}      {Tol}      {Aver}       {Min}       {Max}";
+
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int Tol, Aver, Max, Min;
+
+            Random Rn = new Random();
+            Student Stu = new Student();
+            Stu.Name = " Tina";
+
+            for (int i = 0; i <20; i++)
+            {
+            Stu.ChineseGrade = Rn.Next(0, 100);
+            Stu.EngGrade = Rn.Next(0, 100);
+            Stu.MathGrade = Rn.Next(0, 100);
+
+
+
+
+
+                Tol = (Stu.MathGrade + Stu.ChineseGrade + Stu.EngGrade);
+                Aver = Tol / 3;
+
+                if (Stu.ChineseGrade > Stu.EngGrade)
+                {
+                    Max = Stu.ChineseGrade;
+                }
+                else
+                {
+                    Max = Stu.EngGrade;
+                }
+                if (Max < Stu.MathGrade)
+                {
+                    Max = Stu.MathGrade;
+                }
+                //////////////////////////////////////////////////////////////////////////
+                if (Stu.ChineseGrade < Stu.EngGrade)
+                {
+                    Min = Stu.ChineseGrade;
+                }
+                else
+                {
+                    Min = Stu.EngGrade;
+                }
+                if (Min > Stu.MathGrade)
+                {
+                    Min = Stu.MathGrade;
+                }
+
+                SumChi += Stu.ChineseGrade;
+                SumEng += Stu.EngGrade;
+                SumMath += Stu.MathGrade;
+
+
+
+                label5.Text += Environment.NewLine + $" {Stu.Name}       {Stu.ChineseGrade}      {Stu.EngGrade}       {Stu.MathGrade}      {Tol}      {Aver}       {Min}       {Max}";
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label5.Text = "姓名     國文     英文     數學     總分     平均     最低     最高 ";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            a = int.Parse(txtChi.Text);
-            b = int.Parse(txtEng.Text);
-            c = int.Parse(txtMat.Text);
-
-            aa = int.Parse(txtChi.Text);
-            bb = int.Parse(txtEng.Text);
-            cc = int.Parse(txtMat.Text);
-
-
-            if (a > b)
-            {
-                max = a;
-            }
-            else
-            {
-                max = b;
-            }
-
-            if (c > max)
-            {
-                max = c;
-            }
-
-
-
-
-
-
-           ///////////////////////////////////////////////
-            if (aa > bb)
-            {
-                min = bb;
-            }
-            else
-            {
-                min = aa;
-            }
-
-            if (cc < min)
-            {
-                min = cc;
-            }
-     
-            txtCompare.Text = "分數最低為：" + min.ToString()+Environment.NewLine+ "分數最高為：" + max.ToString();
-
-
+            Student Stu = new Student();
+            
+            call_ave();
+           
+       
         }
 
-        private void butShow_Click(object sender, EventArgs e)
+        void call_ave()
         {
-            txtgrade.Text = result;
+            label6.Text = Environment.NewLine + $" 總分：                           {SumChi}         {SumEng}         {SumMath}";
         }
+
     }
 }
